@@ -1,0 +1,12 @@
+﻿  MySet.cpp
+C:\Users\florian\Documents\development\Uebung2\Uebung2\MySet.h(7,12): error C2143: Syntaxfehler: Es fehlt ";" vor "<"
+C:\Users\florian\Documents\development\Uebung2\Uebung2\MySet.h(7,12): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+C:\Users\florian\Documents\development\Uebung2\Uebung2\MySet.h(7,28): error C2238: Unerwartete(s) Token vor ";"
+C:\Users\florian\Documents\development\Uebung2\Uebung2\MySet.h(28,5): error C2061: Syntaxfehler: Bezeichner "initializer_list"
+C:\Users\florian\Documents\development\Uebung2\Uebung2\MySet.h(28,5): error C2535: "Set::Set(void)": Memberfunktion bereits definiert oder deklariert
+C:\Users\florian\Documents\development\Uebung2\Uebung2\MySet.h(26): message : Siehe Deklaration von "Set::Set"
+C:\Users\florian\Documents\development\Uebung2\Uebung2\MySet.h(50,16): error C2143: Syntaxfehler: Es fehlt ";" vor "&"
+C:\Users\florian\Documents\development\Uebung2\Uebung2\MySet.h(50,16): error C2433: "ostream": "friend" bei der Deklaration von Daten nicht zulässig
+C:\Users\florian\Documents\development\Uebung2\Uebung2\MySet.h(50,16): error C4430: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C++ nicht unterstützt.
+C:\Users\florian\Documents\development\Uebung2\Uebung2\MySet.h(50,56): error C2334: Unerwartete(s) Token vor "{"; sichtbarer Funktionstext wird übersprungen
+C:\Users\florian\Documents\development\Uebung2\Uebung2\MySet.cpp(6,29): error C2614: "Set": Unzulässige Elementinitialisierung: "m_values" ist weder Basis noch Element

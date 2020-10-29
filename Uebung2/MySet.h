@@ -9,16 +9,16 @@ protected:
 
 	// gesch�tzte Instanzmethoden
 	int* begin() const;						// gibt einen Zeiger auf das erste Element der Menge zur�ck (nullptr falls leer)
-	int& operator[](size_t);				// gibt das i-te Element des Mengen-Arrays zur�ck
+	int& operator[](size_t);				// gibt das i-te Element des Mengen-Arrays zurueck
 	int operator[](size_t i) const;			// wie auf Zeile vorher, jedoch nur einen Lesezugriff
 
-	Set merge(const Set& set) const;		// gibt als neue Menge die Vereinigunsmenge dieser Menge mit set zur�ck
-	Set difference(const Set& set) const;	//gibt als neue Menge die Differenzmenge zwischen set und dieser Methode (set \ this) zur�ck
+	Set merge(const Set& set) const;		// gibt als neue Menge die Vereinigunsmenge dieser Menge mit set zurueck
+	Set difference(const Set& set) const;	//gibt als neue Menge die Differenzmenge zwischen set und dieser Methode (set \ this) zurueck
 	Set intersection(const Set& set) const; // gibt als Menge die Schnittmenge dieser Menge mit set zur�ck
 
 
 public:
-	// �ffentliche Methoden
+	// Oeffentliche Methoden
 
 
 	// Konstruktoren und Desktruktor
@@ -40,17 +40,17 @@ public:
 	// testet ob die Menge leer ist
 	bool isEmpty() const;
 
-	// gibt die Anzahl Elemente in der Menge zur�ck
+	// gibt die Anzahl Elemente in der Menge zurueck
 	size_t size() const;
 
 	// Gleichheitsoperator ('equals' in Java); inline Implementierung schon gegeben
 	bool operator==(const Set& set) const { return size() == set.size() && containsAll(set) && set.containsAll(*this); }
 
-	// Ausgabe-Operator f�r Output-Streams (Inline-Implementierung schon gegeben)
+	// Ausgabe-Operator fuer Output-Streams (Inline-Implementierung schon gegeben)
 	friend ostream& operator<<(ostream& os, const Set& s) {
 		const int* const vptr = s.begin();
 		os << "{";
-		if (!.isEmpty()) os << vptr[0];
+		if (!s.isEmpty()) os << vptr[0];
 		for (size_t i = 1; i < s.m_size; ++i) { os << "," << vptr[i]; }
 		os << "}";
 		return os;

@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "CppUnitTest.h"
 
-#include "../MySet/MySet.h"
+#include "../Uebung2/MySet.h"
 #include "../MySet/OrderedSet.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;

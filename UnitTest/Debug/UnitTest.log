@@ -1,0 +1,3 @@
+﻿  pch.cpp
+  UnitTest.cpp
+C:\Users\florian\Documents\development\Uebung2\UnitTest\UnitTest.cpp(199,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
